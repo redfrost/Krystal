@@ -37,6 +37,21 @@ p.space {
 
 
 
+/* Grid Test Colors */
+.show-grid {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    }
+    .show-grid [class*="span"] {
+      background-color: #EEEEEE;
+      border-radius: 3px 3px 3px 3px;
+      line-height: 30px;
+      min-height: 30px;
+      text-align: center;
+    }
+    
+    
+
 /* Animation
 ********************************/  
 
@@ -400,7 +415,7 @@ footer {
     background:;
     color: #999999;
     }
-    footer .container {
+    footer .container, footer .container-fluid {
         border-top: 1px solid #DDDDDD;
         padding: 14px 0 50px;
         }
