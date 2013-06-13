@@ -1002,7 +1002,7 @@ body style {
         border-top-color: #E9C4C4;
         }
 
-        .gridcheck .dropdown-menu {
+        .gridcheck .dropdown-menu, .gridcheck .navbar .btn-navbar {
             background: #B05A5A;
             }
             
@@ -1013,8 +1013,12 @@ body style {
 
             .gridcheck .navbar .nav li.dropdown.open > .dropdown-toggle, 
             .gridcheck .navbar .nav li.dropdown.active > .dropdown-toggle, 
-            .gridcheck .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-                background-color: #B05A5A;
+            .gridcheck .navbar .nav li.dropdown.open.active > .dropdown-toggle,
+            .gridcheck .nav-collapse .nav > li > a:hover, 
+            .gridcheck .nav-collapse .nav > li > a:focus, 
+            .gridcheck .nav-collapse .dropdown-menu a:hover, 
+            .gridcheck .nav-collapse .dropdown-menu a:focus  {
+                background-color: #B05A5A !important;
                 color: #FFFFFF;
                 }
 

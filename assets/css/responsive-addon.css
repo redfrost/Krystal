@@ -4,7 +4,7 @@
 /* Grid Mobile fix */
 	@media (max-width: 768px) {
 	 body { overflow-x: hidden; } /* Width fit fix in Mobile view */ 
-	 [class*="span"] { margin-bottom: 30px; }
+	 [class*="span"] { margin-bottom: 1em; }
 	}
 
     body.responsive { min-width:; }
