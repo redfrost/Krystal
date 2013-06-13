@@ -907,6 +907,11 @@ body.style3 {
 
 
 
+
+
+
+
+
 /* =============================================================================
    EDITOR
    ============================================================================= */
@@ -956,4 +961,54 @@ body style {
 
 
 
+
+
+/* Style Grid check
+********************************/
+
+/* Brand */
+.gridcheck .navbar .brand,
+.gridcheck .navbar .nav > li > a,
+.gridcheck .dropdown-menu .nav-header {
+    color: #E9C4C4;
+}
+
+/* Nav BG */
+.gridcheck .navbar-inner {
+    background-color: #a23535;
+    background-image: none;
+    border-color: #6a1a1a;
+    }
+
+    /* Dropdown top toggle caret hover */
+    .gridcheck .navbar .nav li.dropdown > a:hover .caret, 
+    .gridcheck .navbar .nav li.dropdown > a:focus .caret {
+        border-bottom-color: #E9C4C4;
+        border-top-color: #E9C4C4;
+        }
+
+        .gridcheck .dropdown-menu {
+            background: #B05A5A;
+            }
+            
+            .dropdown-menu .divider {
+            background-color: #B47272;
+            border-bottom: 1px solid #B47272;
+            }
+
+            .gridcheck .navbar .nav li.dropdown.open > .dropdown-toggle, 
+            .gridcheck .navbar .nav li.dropdown.active > .dropdown-toggle, 
+            .gridcheck .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+                background-color: #B05A5A;
+                color: #FFFFFF;
+                }
+
+                /* Dropdown link hover */
+                .gridcheck .dropdown-menu > li > a:hover, 
+                .gridcheck .dropdown-menu > li > a:focus, 
+                .gridcheck .dropdown-submenu:hover > a, 
+                .gridcheck .dropdown-submenu:focus > a {
+                    background-color: #a23535;
+                    background-image: none;
+                    }
 
