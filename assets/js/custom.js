@@ -73,11 +73,11 @@ jQuery(document).ready(function(){
 });
 
 
-
+/*
 $(document).ready(function(){
     $('a.toggle').click(function(){
         $(this).toggleClass("down");
         $('.main-content .span12').attr('contenteditable', 'true');
     });
 });
-
+*/
