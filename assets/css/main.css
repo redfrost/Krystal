@@ -1031,3 +1031,13 @@ body style {
                     background-image: none;
                     }
 
+
+
+
+/* Tooltips */
+.popover {
+    text-align: left;
+    text-shadow: none;
+    white-space: normal;
+    border-radius: 0px !important;
+}
