@@ -19,7 +19,7 @@
 body { 
     font-family: "Apple SD Gothic Neo",Applegothic,"Malgun Gothic",Dotum,"Helvetica Neue",Helvetica,Arial,sans-serif; 
     }
-    h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand { font-family:; }
+    h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand { font-family: "Apple SD Gothic Neo",Applegothic,"Malgun Gothic",Dotum,"Helvetica Neue",Helvetica,Arial,sans-serif; }
 
 /* Legacy font */
 .legacy1 { font-family: Applegothic !important; }
