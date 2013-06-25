@@ -114,6 +114,9 @@ p.space {
     }
 }
 
+.navbar-fixed-top {
+    position: absolute;
+}
 
 /* Nav BG */
 .navbar-inner {
@@ -808,7 +811,7 @@ body.style3 {
 
 @media (min-width:768px) and (max-width:1024px) {
     .navbar-fixed-top, .navbar-fixed-bottom {
-        position: fixed !important;
+        position: absolute !important;
         }
         .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
             margin-left: 0;
