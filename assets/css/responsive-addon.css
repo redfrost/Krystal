@@ -1,0 +1,121 @@
+/* =============================================================================
+   ADD-ON
+   ============================================================================= */
+/* Grid Mobile fix */
+	@media (max-width: 768px) {
+	 body { overflow-x: hidden; } /* Width fit fix in Mobile view */ 
+	 [class*="span"] { margin-bottom: 1em; }
+	}
+
+    body.responsive { min-width:; }
+
+/* HEADER */
+	@media (max-width: 979px) {	  
+	.navbar .nav { float: none !important; }
+    }
+
+	@media (max-width: 767px) {	  
+	.hero-unit {
+	    margin: -20px;
+	    padding: 20px !important;
+		}
+	}
+	
+
+      
+   
+/* FOOTER */
+	@media (max-width: 767px) {	
+		footer {
+		    margin: -20px;
+		    padding: 20px;
+		    } 
+		    .footer_menu_box li a { 
+	            margin-right: 0px !important; 
+	            }
+	}
+
+	@media (max-width: 767px){	  
+	.footer_menu {
+	    display: inline-block;
+	    margin: auto;
+	    text-align: center;
+	    width: 100% !important;
+		}
+		.footer_menu_box li {
+		    display: block !important;
+		    margin: 14px 0;
+		}
+	
+		
+	.sns_icons {
+	    display: inline-block;
+	    float: none !important;
+	    margin: 20px auto;
+	    text-align: center;
+	    width: 100% !important;
+		}
+		.sns_icons_box {
+		    float: none !important;
+		    margin: 0;
+		}
+			.sns_icons_box li {
+	    	width: auto;
+			}
+
+	
+	.copyright {
+	    display: inline-block;
+	    float: none !important;
+	    margin: 14px auto !important;
+	    text-align: center;
+	    width: 100%;
+		}	
+		.maker {
+			display: inline-block;
+		    border-left: 0 none !important;
+		    float: none !important;
+		    margin: 0 !important;
+		    padding-left: 0 !important;
+		    width: 100% !important;
+		    text-align: center;
+		}
+		
+	
+	.back_top {
+	    float: none !important;
+	    margin: 40px 0 0 !important;
+	    text-align: center !important;
+	    width: 100% !important;
+		}
+		.back_top a {
+		    background: none repeat scroll 0 0 #999999;
+		    border: 4px solid #FFFFFF;
+		    border-radius: 30px 30px 30px 30px;
+		    color: #FFFFFF !important;
+		    padding: 10px 20px;
+		    box-shadow: 0 1px 2px #BBBBBB;
+		}
+	}
+	
+	
+
+/* Responsive Video	*/
+.entry-content-asset {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.entry-content-asset embed, .entry-content-asset object, .entry-content-asset iframe 
+ {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
