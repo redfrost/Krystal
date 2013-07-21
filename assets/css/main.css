@@ -114,9 +114,6 @@ p.space {
     }
 }
 
-.navbar-fixed-top {
-    position: absolute;
-}
 
 /* Nav BG */
 .navbar-inner {
@@ -672,6 +669,11 @@ footer {
         }
 
 @media (max-width:979px) { 
+
+    .style3 .nav-collapse .nav {        
+        padding-top: 30px;
+    }
+
     .style3 .nav-collapse .nav > li > a:hover, 
     .style3 .nav-collapse .nav > li > a:focus, 
     .style3 .nav-collapse .dropdown-menu a:hover {
@@ -811,7 +813,7 @@ body.style3 {
 
 @media (min-width:768px) and (max-width:1024px) {
     .navbar-fixed-top, .navbar-fixed-bottom {
-        position: absolute !important;
+        position: fixed !important;
         }
         .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
             margin-left: 0;
