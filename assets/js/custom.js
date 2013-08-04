@@ -15,16 +15,12 @@
 $('[data-spy="scroll"]').scrollspy({ offset: 100 });
 
 
-// Tooltip
+// Tooltip & Popover
 	  jQuery(document).ready(function () {
 	    $("[rel=tooltip]").tooltip();
-	  });
-	
-	
-// Popover
-	  jQuery(document).ready(function () {
 	    $("[rel=popover]").popover();
 	  });
+	
 
 
 // Carousel	Auto
