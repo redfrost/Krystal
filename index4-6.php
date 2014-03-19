@@ -1,7 +1,7 @@
 <?php include("section/head.php"); ?>
 
-    
-    <body class=" ">
+
+    <body id="top" class="style3">
     <div id="master-wrap">
 
 
@@ -10,11 +10,11 @@
         <div class="main-content container">
         <div class="row">
         <div class="span12">
-        <?php include("section/styler1.php"); ?>            
-  
-<?php include("section/article-alchemist.php"); ?>
-							
-	            
+         <?php include("section/styler3.php"); ?>
+
+<?php include("section/article-diablo6.php"); ?>
+
+
         </div><!-- /.span12 -->
         </div><!-- /.row -->
         </div><!-- /.container -->
