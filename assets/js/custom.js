@@ -15,12 +15,16 @@
 $('[data-spy="scroll"]').scrollspy({ offset: 100 });
 
 
-// Tooltip & Popover
+// Tooltip
 	  jQuery(document).ready(function () {
 	    $("[rel=tooltip]").tooltip();
-	    $("[rel=popover]").popover();
 	  });
 	
+	
+// Popover
+	  jQuery(document).ready(function () {
+	    $("[rel=popover]").popover();
+	  });
 
 
 // Carousel	Auto
@@ -69,11 +73,5 @@ jQuery(document).ready(function(){
 });
 
 
-/*
-$(document).ready(function(){
-    $('a.toggle').click(function(){
-        $(this).toggleClass("down");
-        $('.main-content .span12').attr('contenteditable', 'true');
-    });
-});
-*/
+
+
